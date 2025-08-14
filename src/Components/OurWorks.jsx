@@ -5,7 +5,7 @@ import software from "../assets/OurWorks/software.jpg"
 import digitall from "../assets/OurWorks/digitall.png"
 import { Link } from "react-router-dom";
 
-import W from "../assets/OurWorks/w.jpg"
+import W from "../assets/OurWorks/W.jpg"
 import A from "../assets/OurWorks/A.jpg"
 import Sa from "../assets/OurWorks/Sa.jpg"
 
