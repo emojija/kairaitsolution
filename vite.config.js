@@ -3,8 +3,8 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [tailwindcss()],
+  base: './', // fixes relative asset paths
   build: {
     outDir: 'dist'
-  },
-  base: './', // important for relative paths in production
+  }
 })
