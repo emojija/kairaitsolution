@@ -1,10 +1,14 @@
+// vite.config.js
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [tailwindcss()],
-  base: './', // fixes relative asset paths
+  base: '/', // Use absolute paths for production
+  plugins: [react(), tailwindcss()],
   build: {
-    outDir: 'dist'
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false
   }
 })
