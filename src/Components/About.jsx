@@ -6,9 +6,9 @@ import 'swiper/css/pagination';
 import { Pagination, Autoplay } from 'swiper/modules';
 
 import about from '../assets/about.jpg';
-import navambhawImg from '../assets/projects/navambhaw.png';
-import kairaImg from '../assets/projects/kairajeweller.png';
-import terretImg from '../assets/projects/terret.png';
+import navambhawImg from '../assets/Projects/navambhaw.png';
+import kairaImg from '../assets/Projects/kairajeweller.png';
+import terretImg from '../assets/Projects/terret.png';
 
 const projects = [
   {
