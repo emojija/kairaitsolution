@@ -32,7 +32,7 @@ import AppServices from './Components/AppServices'
 import DigitalMarketing from './Components/DigitalMarketing';
 import TermsAndConditions from './Components/TermsAndConditions';
 import Privacypolicy from './Components/Privacypolicy'
-import CarrerPage from '../src/Components/ServicesPages/CarrerPage';
+import CarrerPage from './Components/ServicesPages/CarrerPage';
 import { Toaster } from 'react-hot-toast';
 import ScrollToTopButton from './Components/ScrollToTopButton';
 import ChatBox from './Components/ChatBox';

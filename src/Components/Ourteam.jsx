@@ -80,7 +80,7 @@ export default function OurTeam() {
         breakpoints={{ 768: { slidesPerView: 3 } }} // ≥768 px ⇒ 3 slides
         pagination={{ clickable: true }}
         autoplay={{ delay: 2500, disableOnInteraction: false }}
-        modules={[ Autoplay]}
+        modules={[Pagination, Autoplay]}
         onSlideChange={(s) => setActiveIndex(s.realIndex)}
       >
         {cards.map((m, idx) => (
